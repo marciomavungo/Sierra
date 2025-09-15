@@ -1,2 +1,2 @@
 # ViewLock minimal image viewer dependencies
-Pillow >= 10.0.0          # pip install pillow
+Pillow>=10.0.0  # Install via `pip install pillow` or `sudo pacman -S python-pillow` on Arch Linux
