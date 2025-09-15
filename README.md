@@ -52,3 +52,22 @@ pip install -r requirements.txt
 
 # Run the prototype
 python main.py
+```
+
+## Usage
+1. Open the application (Python prototype or iOS app).  
+2. Point the camera at a watermarked image.  
+3. The software will detect protected content in real time.  
+4. If the image is protected, saving or capturing will be blocked automatically.
+
+---
+
+## License
+ViewLock is **proprietary software**.  
+All rights reserved. See [LICENSE](LICENSE) for full details.
+
+---
+
+## Contact
+For commercial inquiries, licensing, or collaboration:  
+**Email:** marciomavungo06@gmail.com
