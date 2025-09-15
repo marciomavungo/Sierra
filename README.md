@@ -54,6 +54,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
+
 ## Usage
 1. Open the application (Python prototype or iOS app).  
 2. Point the camera at a watermarked image.  
