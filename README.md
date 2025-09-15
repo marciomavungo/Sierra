@@ -1,6 +1,5 @@
 # ViewLock
 
-**Short Description:**  
 Prevent external cameras from bypassing view-once image security
 
 ---
