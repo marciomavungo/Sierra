@@ -1,0 +1,2 @@
+# ViewLock minimal image viewer dependencies
+Pillow >= 10.0.0          # pip install pillow
