@@ -1,39 +1,47 @@
 import tkinter as tk
-from tkinter import filedialog
-from PIL import Image, ImageTk
 
-def open_image():
-    file_path = filedialog.askopenfilename(
-        filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp")]
-    )
-    if file_path:
-        img = Image.open(file_path)
-        img_tk = ImageTk.PhotoImage(img)
-        label.config(image=img_tk)
-        label.image = img_tk
-        # Placeholder for watermark detection
-        print("Image opened! Watermark check goes here.")
-
-def close_image():
-    label.config(image=None)
-    label.image = None
-
-# Create main window
 root = tk.Tk()
-root.title("ViewLock Viewer")
-root.configure(bg='darkgray')
-root.geometry('800x600')
+root.title('Image Viewer')
+root.configure(bg='#1e1e1e')
 
-# Open Image button
-btn_open = tk.Button(root, text="Open Image", command=open_image)
-btn_open.pack(expand=True)
+# --- Top frame ---
+top_frame = tk.Frame(root, bg='#252526', height=50)
+top_frame.pack(fill='x', side='top')
+top_frame.pack_propagate(False)
 
-# Close Image button (X)
-btn_close = tk.Button(root, text="X", command=close_image)
-btn_close.place(x=770, y=10)  # adjust as needed
+# Label field
+label = tk.Label(
+    top_frame,
+    text='Image Viewer',
+    font=('Fira Sans', 11),
+    bg='#252526',
+    fg='#d4d4d4')
+label.pack(expand=True)
 
-# Label to display image
-label = tk.Label(root, bg='darkgray')
-label.pack()
+# --- Bottom frame ---
+bottom_frame = tk.Frame(root, bg='#252526', height=50)
+bottom_frame.pack(fill='x', side='bottom')
+bottom_frame.pack_propagate(False)
+
+# Entry field
+command_entry = tk.Entry(
+    bottom_frame,
+    font=('Fira Sans', 9),
+    width=30,
+    bg='#333333',
+    fg='#d4d4d4',
+    insertbackground='#aeafad')
+command_entry.pack(side='right', padx=(0, 10), pady=10)
+command_entry.focus()
+
+# 'Command:'
+command_label = tk.Label(
+    bottom_frame,
+    text='Command:',
+    font=('Fira Sans', 9),
+    bg='#252526',
+    fg='#d4d4d4'
+)
+command_label.pack(side='right', padx=(0, 5))
 
 root.mainloop()
