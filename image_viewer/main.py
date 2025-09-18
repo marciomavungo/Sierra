@@ -40,7 +40,7 @@ open_button = tk.Button(
     relief="flat",
     padx=10, pady=5
 )
-open_button.place(relx=0.5, rely=0.5, anchor="center")  # centered
+open_button.place(relx=0.5, rely=0.5, anchor="center")
 
 # --- Bottom frame ---
 bottom_frame = tk.Frame(root, bg='#252526', height=50)
