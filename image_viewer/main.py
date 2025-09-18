@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import filedialog
 from PIL import Image, ImageTk
 
 root = tk.Tk()
@@ -94,7 +93,7 @@ def run_command(event=None):
 
 def open_file_dialog():
     """Open file explorer to choose image."""
-    file_path = filedialog.askopenfilename(
+    file_path = tk.filedialog.askopenfilename(
         filetypes=[("Image files", "*.png *.jpg *.jpeg *.gif *.bmp")]
     )
     if file_path:
