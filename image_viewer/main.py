@@ -51,8 +51,7 @@ command_entry = tk.Entry(
     width=30,
     bg='#333333',
     fg='#d4d4d4',
-    insertbackground='#aeafad'
-)
+    insertbackground='#aeafad')
 command_entry.pack(side='right', padx=(0, 10), pady=10)
 command_entry.focus()
 
@@ -61,8 +60,7 @@ command_label = tk.Label(
     text='Command:',
     font=('Fira Sans', 9),
     bg='#252526',
-    fg='#d4d4d4'
-)
+    fg='#d4d4d4')
 command_label.pack(side='right', padx=(0, 5))
 
 # --- Functions ---
