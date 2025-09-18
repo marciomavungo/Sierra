@@ -16,8 +16,7 @@ label = tk.Label(
     text='Image Viewer',
     font=('Fira Sans', 11),
     bg='#252526',
-    fg='#d4d4d4'
-)
+    fg='#d4d4d4')
 label.pack(expand=True)
 
 # --- Center frame for image ---
