@@ -71,7 +71,7 @@ def display_image(path):
     global current_image
     try:
         img = Image.open(path)
-        img = img.resize((600, 400))  # fixed size (for now)
+        img = img.resize((600, 400))  # fixed size
         current_image = ImageTk.PhotoImage(img)
         image_label.config(image=current_image)
         open_button.place_forget()  # hide button after opening
