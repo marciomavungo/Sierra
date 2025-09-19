@@ -64,7 +64,7 @@ command_label = tk.Label(
 command_label.pack(side='right', padx=(0, 5))
 
 # --- Functions ---
-current_image = None  # keep reference
+current_image = None
 
 def display_image(path):
     global current_image
