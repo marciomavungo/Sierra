@@ -67,7 +67,6 @@ command_label.pack(side='right', padx=(0, 5))
 current_image = None  # keep reference
 
 def display_image(path):
-    """Helper to open and show an image."""
     global current_image
     try:
         img = Image.open(path)
