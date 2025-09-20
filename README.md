@@ -7,7 +7,7 @@ Sierra is a minimal and modern image viewer built with **Python**.
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
+- [Screenshot](#Screenshot)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
