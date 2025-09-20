@@ -3,7 +3,7 @@ from tkinter import filedialog
 from PIL import Image, ImageTk
 
 root = tk.Tk()
-root.title('Image Viewer')
+root.title('Sierra')
 root.configure(bg='#1e1e1e')
 
 # --- Top frame ---
@@ -13,7 +13,7 @@ top_frame.pack_propagate(False)
 
 label = tk.Label(
     top_frame,
-    text='Image Viewer',
+    text='Sierra',
     font=('Fira Sans', 11),
     bg='#252526',
     fg='#d4d4d4')
