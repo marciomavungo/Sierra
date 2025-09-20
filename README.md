@@ -47,8 +47,8 @@ cd sierra
 ---
 
 ## License
-ViewLock is **proprietary software**.  
-All rights reserved. See [LICENSE](LICENSE) for full details.
+Sierra is **free and open-source software**.  
+See [LICENSE](LICENSE) for full details.
 
 ---
 
