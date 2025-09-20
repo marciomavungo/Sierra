@@ -26,10 +26,10 @@ Sierra is a minimal and modern image viewer built with **Python**.
 - Centered **Open Image** button for quick access
 - Lightweight and dependency-free (except Pillow)
 
-## 🖼️ Screenshot
+## Screenshot
 *(Add a screenshot of the app here once ready!)*
 
-## 📦 Installation
+## Installation
 Clone the repository:
 ```bash
 git clone https://github.com/yourusername/sierra.git
