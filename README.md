@@ -39,10 +39,7 @@ cd sierra
 ---
 
 ## Usage
-1. Open the application (Python prototype or iOS app).  
-2. Point the camera at a watermarked image.  
-3. The software will detect protected content in real time.  
-4. If the image is protected, saving or capturing will be blocked automatically.
+1. 
 
 ---
 
