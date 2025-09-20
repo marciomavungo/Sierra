@@ -1,6 +1,7 @@
-# ViewLock
+# Sierra
 
-Prevent external cameras from bypassing view-once image security
+Sierra is a minimal and modern image viewer built with **Python**, **Tkinter**, and **Pillow**.  
+It was originally developed as part of the **ViewLock** project but is now a standalone tool.
 
 ---
 
@@ -15,44 +16,26 @@ Prevent external cameras from bypassing view-once image security
 
 ---
 
-## Overview
-ViewLock is a tool designed to **enforce view-once security for images**.  
-It prevents unauthorized captures by external cameras and ensures sensitive images remain protected.
 
-This project is currently a **prototype**, built for demonstration and testing purposes.  
-The final version is intended for commercial use and integration with secure image viewers or mobile camera apps.
+## ✨ Features
+- Dark, VS Code–inspired interface
+- Open images from file explorer or by typing a command
+- Support for common formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`
+- Simple **command entry**:
+  - `open <path>` → Open an image by path  
+  - `close` → Close the currently opened image
+- Centered **Open Image** button for quick access
+- Lightweight and dependency-free (except Pillow)
 
----
+## 🖼️ Screenshot
+*(Add a screenshot of the app here once ready!)*
 
-## Features
-- Detects protected images in real time
-- Blocks saving or capturing of view-once images
-- Private, secure environment for sensitive content
-- Modular design for future integration with mobile apps
-
----
-
-## Demo
-*(Optional: insert GIF, screenshot, or video of watermark detection and view-once enforcement)*
-
----
-
-## Installation
-Currently, ViewLock is in prototype form and can be tested on your development machine:
-
+## 📦 Installation
+Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ViewLock.git
+git clone https://github.com/yourusername/sierra.git
+cd sierra
 
-# Navigate into the directory
-cd ViewLock
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the prototype
-python main.py
-```
 
 ---
 
