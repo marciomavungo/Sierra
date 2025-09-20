@@ -1,7 +1,6 @@
 # Sierra
 
-Sierra is a minimal and modern image viewer built with **Python**, **Tkinter**, and **Pillow**.  
-It was originally developed as part of the **ViewLock** project but is now a standalone tool.
+Sierra is a minimal and modern image viewer built with **Python**.  
 
 ---
 
