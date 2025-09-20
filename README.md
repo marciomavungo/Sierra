@@ -53,5 +53,4 @@ All rights reserved. See [LICENSE](LICENSE) for full details.
 ---
 
 ## Contact
-For commercial inquiries, licensing, or collaboration:  
 **Email:** marciomavungo06@gmail.com
