@@ -17,14 +17,11 @@ Sierra is a minimal and modern image viewer built with **Python**.
 
 
 ## Features
-- Dark, VS Code–inspired interface
-- Open images from file explorer or by typing a command
-- Support for common formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`
-- Simple **command entry**:
-  - `open <path>` → Open an image by path  
-  - `close` → Close the currently opened image
-- Centered **Open Image** button for quick access
-- Lightweight and dependency-free (except Pillow)
+- Open images from file explorer or by typing custom commands;
+- Support for common formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`;
+- Simple **command entry**;
+- Centered **Open Image** button for quick access;
+- Lightweight and dependency-free.
 
 ## Screenshot
 *(Add a screenshot of the app here once ready!)*
