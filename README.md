@@ -32,8 +32,8 @@ Sierra is a minimal and modern image viewer built with **Python**.
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sierra.git
-cd sierra
+git clone https://github.com/marciomavungo/Sierra.git
+cd Sierra
 ```
 
 ---
