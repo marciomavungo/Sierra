@@ -1,6 +1,6 @@
 # Sierra
 
-Sierra is a minimal and modern image viewer built with **Python**.  
+Sierra -- a minimal and modern open source image viewer built with **Python**.  
 
 ---
 
