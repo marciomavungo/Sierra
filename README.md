@@ -1,22 +1,10 @@
 # Sierra
-### command based image viewer
+### command-based image viewer
 
 **Sierra** -- a minimal and modern open source image viewer built with **Python**.  
-It is designed to  
+It combines simplicity with flexibility, letting you open and manage images either through quick commands or a clean button-based interface.
 
 ---
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#Demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 
 ## Features
 - Open images from file explorer or by typing custom commands;
