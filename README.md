@@ -1,5 +1,5 @@
 # Sierra
-### command-based image viewer
+### Command-based image viewer
 
 **Sierra** -- a minimal and modern open source image viewer built with **Python**.  
 It combines simplicity with flexibility, letting you open and manage images either through quick commands or a clean button-based interface.
