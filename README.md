@@ -27,7 +27,7 @@ cd Sierra
 ---
 
 ## License
-Sierra is **free and open-source software**, licensed under the [LICENSE](LICENSE).
+Sierra is **free and open-source software**, licensed under the [MIT License](LICENSE).
   
 ## Contact
 **Email:** marciomavungo06@gmail.com
