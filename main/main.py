@@ -79,7 +79,7 @@ def display_image(path):
 
 def run_command(event=None):
     """Run commands from entry box."""
-    cmd = command_entry.get().strip()
+    cmd = command_entry.get().strip().lower()
 
     if cmd.startswith("open "):
         path = cmd[5:].strip()
