@@ -9,7 +9,7 @@ It combines simplicity with flexibility, letting you open and manage images eith
 ## Features
 - Open images from file explorer or by typing custom commands;
 - Support for common formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`;
-- Simple **command entry**;
+- Command entry for fast, keyboard-driven workflow;
 - Centered **Open Image** button for quick access;
 - Lightweight and dependency-free.
 
