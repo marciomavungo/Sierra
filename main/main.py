@@ -45,7 +45,7 @@ command_entry.focus()
 command_label = tk.Label(
     bottom_frame,
     text='Command:',
-    font=('Fira Sans', 9),
+    font=('Fira Sans', 10),
     bg='#252526',
     fg='#d4d4d4')
 command_label.pack(side='right', padx=(0, 5))
