@@ -27,19 +27,6 @@ image_frame.pack(expand=True, fill='both')
 image_label = tk.Label(image_frame, bg='#1e1e1e')
 image_label.pack(expand=True)
 
-# Open button in the middle
-open_button = tk.Button(
-    image_frame,
-    text="Open Image",
-    font=('Fira Sans', 10),
-    bg='#333333',
-    fg='#d4d4d4',
-    activebackground="#007acc",
-    activeforeground="white",
-    relief="flat",
-    padx=10, pady=5)
-open_button.place(relx=0.5, rely=0.5, anchor="center")  # centered
-
 # --- Bottom frame ---
 bottom_frame = tk.Frame(root, bg='#252526', height=50)
 bottom_frame.pack(fill='x', side='bottom')
@@ -73,23 +60,8 @@ def display_image(path):
         img = img.resize((600, 400))  # fixed size
         current_image = ImageTk.PhotoImage(img)
         image_label.config(image=current_image)
-        open_button.place_forget()  # hide button after opening
     except Exception as e:
         print(f"Error opening image: {e}")
-
-def run_command(event=None):
-    """Run commands from entry box."""
-    cmd = command_entry.get().strip().lower()
-
-    if cmd.startswith("open "):
-        path = cmd[5:].strip()
-        display_image(path)
-
-    elif cmd == "close":
-        image_label.config(image="")
-        open_button.place(relx=0.5, rely=0.5, anchor="center")  # show button again
-
-    command_entry.delete(0, tk.END)
 
 def open_file_dialog():
     """Open file explorer to choose image."""
@@ -99,8 +71,24 @@ def open_file_dialog():
     if file_path:
         display_image(file_path)
 
-# Bind Enter key + button
+def run_command(event=None):
+    """Run commands from entry box."""
+    cmd = command_entry.get().strip().lower()
+
+    if cmd == "open":
+        # open file manager if no path is given
+        open_file_dialog()
+
+    elif cmd.startswith("open "):
+        path = cmd[5:].strip()
+        display_image(path)
+
+    elif cmd == "close":
+        image_label.config(image="")
+
+    command_entry.delete(0, tk.END)
+
+# Bind Enter key
 command_entry.bind("<Return>", run_command)
-open_button.config(command=open_file_dialog)
 
 root.mainloop()
